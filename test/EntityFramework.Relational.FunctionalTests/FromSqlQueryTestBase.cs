@@ -5,9 +5,10 @@ using System;
 using System.Linq;
 using Microsoft.Data.Entity.FunctionalTests;
 using Microsoft.Data.Entity.FunctionalTests.TestModels.Northwind;
+using Microsoft.Data.Entity.Relational.Internal;
 using Xunit;
 
-namespace Microsoft.Data.Entity.Relational.FunctionalTests
+namespace Microsoft.Data.Entity.FunctionalTests
 {
     public abstract class FromSqlQueryTestBase<TFixture> : IClassFixture<TFixture>
         where TFixture : NorthwindQueryFixtureBase, new()

@@ -7,8 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using JetBrains.Annotations;
 using Microsoft.Data.Entity.Internal;
-using Microsoft.Data.Entity.Metadata.ModelConventions;
-using Microsoft.Data.Entity.Utilities;
+using Microsoft.Data.Entity.Metadata.Conventions.Internal;
 
 namespace Microsoft.Data.Entity.Metadata.Internal
 {

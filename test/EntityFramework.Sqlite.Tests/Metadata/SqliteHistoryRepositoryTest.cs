@@ -3,10 +3,11 @@
 
 using System;
 using System.Collections.Generic;
+using Microsoft.Data.Entity.Migrations.History;
+using Microsoft.Data.Entity.Migrations.Operations;
 using Microsoft.Data.Entity.Relational;
-using Microsoft.Data.Entity.Relational.Migrations.History;
-using Microsoft.Data.Entity.Relational.Migrations.Operations;
 using Microsoft.Data.Entity.Sqlite.Migrations;
+using Microsoft.Data.Entity.Storage;
 using Microsoft.Data.Sqlite;
 using Moq;
 using Xunit;

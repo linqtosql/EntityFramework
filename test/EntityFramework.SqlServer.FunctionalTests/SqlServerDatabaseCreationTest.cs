@@ -7,6 +7,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.Data.Entity.Infrastructure;
 using Microsoft.Data.Entity.Relational;
+using Microsoft.Data.Entity.Storage;
 using Microsoft.Framework.DependencyInjection;
 using Xunit;
 

@@ -7,11 +7,11 @@ using System.Data;
 using Microsoft.Data.Entity.Commands.Utilities;
 using Microsoft.Data.Entity.Infrastructure;
 using Microsoft.Data.Entity.Metadata;
+using Microsoft.Data.Entity.Migrations.History;
+using Microsoft.Data.Entity.Migrations.Infrastructure;
+using Microsoft.Data.Entity.Migrations.Operations;
 using Microsoft.Data.Entity.Relational;
-using Microsoft.Data.Entity.Relational.Metadata;
-using Microsoft.Data.Entity.Relational.Migrations.History;
-using Microsoft.Data.Entity.Relational.Migrations.Infrastructure;
-using Microsoft.Data.Entity.Relational.Migrations.Operations;
+using Microsoft.Data.Entity.Storage;
 using Microsoft.Framework.Logging;
 using Xunit;
 

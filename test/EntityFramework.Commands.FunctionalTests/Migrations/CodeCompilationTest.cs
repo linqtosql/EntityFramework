@@ -6,11 +6,11 @@ using System.Reflection;
 using Microsoft.Data.Entity.Commands.TestUtilities;
 using Microsoft.Data.Entity.Commands.Utilities;
 using Microsoft.Data.Entity.Metadata;
-using Microsoft.Data.Entity.Metadata.ModelConventions;
-using Microsoft.Data.Entity.Relational.Migrations;
-using Microsoft.Data.Entity.Relational.Migrations.Builders;
-using Microsoft.Data.Entity.Relational.Migrations.Infrastructure;
-using Microsoft.Data.Entity.Relational.Migrations.Operations;
+using Microsoft.Data.Entity.Metadata.Conventions.Internal;
+using Microsoft.Data.Entity.Migrations;
+using Microsoft.Data.Entity.Migrations.Builders;
+using Microsoft.Data.Entity.Migrations.Infrastructure;
+using Microsoft.Data.Entity.Migrations.Operations;
 using Xunit;
 
 namespace Microsoft.Data.Entity.Commands.Migrations
